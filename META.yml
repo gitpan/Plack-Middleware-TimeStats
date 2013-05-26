@@ -20,7 +20,7 @@ name: Plack-Middleware-TimeStats
 provides:
   Plack::Middleware::TimeStats:
     file: lib/Plack/Middleware/TimeStats.pm
-    version: 0.01
+    version: 0.02
 requires:
   Devel::TimeStats: 0.03
   Plack::Middleware: 0
@@ -29,4 +29,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/Plack-Middleware-TimeStats
-version: 0.01
+version: 0.02
